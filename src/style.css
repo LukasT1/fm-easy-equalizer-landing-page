@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --cyan: #66e2dc;
+  --orange: #fa7453;
+  --yellow: #ffb964;
+  --white: #fcfaf9;
+  --slate: #191826;
+  --2500: 20rem;
+  --1600: 12.8rem;
+  --1000: 8rem;
+  --800: 6.4rem;
+  --700: 5.6rem;
+  --600: 4.8rem;
+  --500: 4rem;
+  --400: 3.2rem;
+  --300: 2.4rem;
+  --250: 2.5rem;
+  --200: 1.6rem;
+  --100: 0.8rem;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-size: 8.8rem;
+  font-weight: bold;
+  line-height: 100%;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 6.4rem;
+  font-weight: bold;
+  line-height: 100%;
+}
+
+h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+p + .text-4 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-5-bold {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.text-5 {
+  font-size: 1.6rem;
+}
+
+.text-6 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
