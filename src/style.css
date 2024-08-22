@@ -79,4 +79,22 @@ p + .text-4 {
   font-weight: bold;
 }
 
+button {
+  border-radius: 1.2rem;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: var(--200) var(--400);
+}
+
+.btn-dark {
+  background-color: var(--slate);
+  color: var(--white);
+}
+
+.btn-light {
+  background-color: var(--white);
+  color: var(--slate);
+}
+
 /*# sourceMappingURL=style.css.map */
