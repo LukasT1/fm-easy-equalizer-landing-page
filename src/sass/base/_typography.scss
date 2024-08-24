@@ -1,3 +1,5 @@
+@use "../base/variables" as *;
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
   letter-spacing: 0px;
@@ -8,6 +10,14 @@ h1 {
   font-weight: bold;
   line-height: 100%;
   letter-spacing: -1px;
+
+  @media (max-width: $bp-900) {
+    font-size: 6.4rem;
+  }
+
+  @media (max-width: $bp-550) {
+    font-size: 4rem;
+  }
 }
 
 h2 {
@@ -23,10 +33,19 @@ h3 {
   letter-spacing: -1px;
 }
 
-p + .text-4 {
+p,
+.text-4 {
   font-size: 2rem;
   font-weight: 400;
   line-height: 150%;
+
+  @media (max-width: $bp-900) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: $bp-550) {
+    font-size: 1.6rem;
+  }
 }
 
 .text-5-bold {

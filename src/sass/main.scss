@@ -6,7 +6,7 @@
 
 @use "components/_buttons";
 
-// @use "layout/header";
-// @use "layout/hero";
-// @use "layout/features";
-// @use "layout/footer";
+@use "layout/_nav";
+@use "layout/_header";
+@use "layout/_main";
+@use "layout/_footer";

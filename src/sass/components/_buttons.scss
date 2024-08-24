@@ -4,14 +4,24 @@ button {
   font-size: 1.8rem;
   font-weight: bold;
   padding: var(--200) var(--400);
+  transition: all 0.3s;
 }
 
 .btn-dark {
   background-color: var(--slate);
   color: var(--white);
+
+  &:hover {
+    background-color: var(--cyan);
+    color: var(--slate);
+  }
 }
 
 .btn-light {
   background-color: var(--white);
   color: var(--slate);
+  &:hover {
+    background-color: var(--yellow);
+    color: var(--slate);
+  }
 }

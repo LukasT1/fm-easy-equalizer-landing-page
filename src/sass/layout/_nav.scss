@@ -1,0 +1,13 @@
+@use "../base/variables" as *;
+
+.nav {
+  margin-bottom: var(--1600);
+
+  @media (max-width: $bp-550) {
+    grid-template-columns: 1fr;
+
+    padding: 0 var(--250);
+    padding-top: var(--800);
+    margin-bottom: 0;
+  }
+}

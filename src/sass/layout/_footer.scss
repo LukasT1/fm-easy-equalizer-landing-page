@@ -1,0 +1,57 @@
+@use "../base/variables" as *;
+
+.footer {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content;
+  gap: var(--1600);
+
+  @media (max-width: $bp-900) {
+    grid-template-columns: 1fr min-content;
+    gap: var(--400);
+  }
+
+  @media (max-width: $bp-550) {
+    grid-template-columns: none;
+    grid-template-rows: repeat(3, min-content);
+    padding: 0 var(--250);
+  }
+
+  &__logo {
+    grid-column: 1 / 2;
+    @media (max-width: $bp-550) {
+      grid-row: 1 / 2;
+    }
+  }
+
+  &__text {
+    grid-column: 2 / 3;
+
+    @media (max-width: $bp-900) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: var(--400);
+    flex-direction: row nowrap;
+    grid-column: 3 / 4;
+    transition: all 0.3s;
+
+    & *:hover {
+      display: block;
+      fill: var(--yellow);
+    }
+
+    @media (max-width: $bp-900) {
+      grid-column: 2 / 3;
+      grid-row: 2 /3;
+    }
+
+    @media (max-width: $bp-550) {
+      grid-column: auto;
+      grid-row: 3/4;
+    }
+  }
+}

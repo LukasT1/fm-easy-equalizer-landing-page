@@ -1,0 +1,19 @@
+@use "../base/variables" as *;
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 20vw;
+
+  @media (max-width: $bp-550) {
+    grid-template-columns: 1fr 15%;
+    padding: 0 var(--250);
+    padding-top: var(--800);
+  }
+  &__heading {
+    grid-column: 1 / 2;
+    margin-bottom: var(--500);
+  }
+  &__text {
+    grid-column: 1 /2;
+  }
+}
