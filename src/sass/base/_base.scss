@@ -5,26 +5,28 @@ html {
 }
 
 body {
-  background: url(assets/bg-main-desktop.png) no-repeat -15rem -15rem / 150rem;
+  background: url("assets/bg-main-desktop.png") no-repeat -15rem -15rem / 150rem;
 
   @media (max-width: $bp-900) {
-    background: url(assets/bg-main-desktop.png) no-repeat -80rem -30rem / 200rem;
+    background: url("assets/bg-main-desktop.png") no-repeat -80rem -30rem /
+      200rem;
   }
 
   @media (max-width: $bp-550) {
-    background: url(assets/bg-main-desktop.png) no-repeat -85rem -30rem / 160rem;
+    background: url("assets/bg-main-desktop.png") no-repeat -85rem -30rem /
+      160rem;
   }
 }
 
 .container {
-  // background: url(assets/bg-main-desktop.png) no-repeat 0% 0% / cover,
-  background: url(assets/bg-pattern-1.svg) no-repeat 100% 0% / 22%;
+  // background: url("assets/bg-main-desktop.png") no-repeat 0% 0% / cover,
+  background: url("assets/bg-pattern-1.svg") no-repeat 100% 0% / 22%;
   max-width: 144rem;
   margin: 0 auto;
   padding: var(--800) var(--1000);
 
   @media (max-width: $bp-900) {
-    background: url(assets/bg-pattern-1.svg) no-repeat 108% 0% / 30%;
+    background: url("assets/bg-pattern-1.svg") no-repeat 108% 0% / 30%;
     padding: var(--800) var(--500);
   }
 
