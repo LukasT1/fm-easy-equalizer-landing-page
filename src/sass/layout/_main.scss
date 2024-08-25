@@ -1,8 +1,7 @@
 @use "../base/variables" as *;
 
 .main {
-  background: url(../../assets/bg-pattern-2.svg) no-repeat 45% 0% / 27%,
-    var(--slate);
+  background: url(assets/bg-pattern-2.svg) no-repeat 45% 0% / 27%, var(--slate);
   margin-top: var(--2500);
   margin-bottom: var(--2500);
   display: grid;
@@ -13,12 +12,11 @@
   border-radius: 1.6rem;
 
   @media (max-width: $bp-900) {
-    background: url(../../assets/bg-pattern-2.svg) no-repeat 0% 0% / 27%,
-      var(--slate);
+    background: url(assets/bg-pattern-2.svg) no-repeat 0% 0% / 27%, var(--slate);
   }
 
   @media (max-width: $bp-550) {
-    background: url(../../assets/bg-pattern-2.svg) no-repeat 50% 0% / 90vw,
+    background: url(assets/bg-pattern-2.svg) no-repeat 50% 0% / 90vw,
       var(--slate);
 
     border-radius: 0;
