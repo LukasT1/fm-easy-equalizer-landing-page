@@ -63,6 +63,7 @@ body {
 @media (max-width: 34.375em) {
   .container {
     padding: 0;
+    padding-bottom: var(--800);
     background: none;
   }
 }
@@ -151,6 +152,10 @@ button {
 .btn-dark:hover {
   background-color: var(--cyan);
   color: var(--slate);
+}
+.btn-dark:hover path {
+  fill: var(--slate);
+  transition: all 0.3s;
 }
 
 .btn-light {

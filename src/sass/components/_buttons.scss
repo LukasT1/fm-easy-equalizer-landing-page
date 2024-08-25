@@ -15,6 +15,11 @@ button {
     background-color: var(--cyan);
     color: var(--slate);
   }
+
+  &:hover path {
+    fill: var(--slate);
+    transition: all 0.3s;
+  }
 }
 
 .btn-light {

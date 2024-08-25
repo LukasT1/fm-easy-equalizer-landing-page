@@ -33,6 +33,7 @@ body {
 
   @media (max-width: $bp-550) {
     padding: 0;
+    padding-bottom: var(--800);
     background: none;
   }
 }
